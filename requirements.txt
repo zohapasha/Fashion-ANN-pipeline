@@ -1,0 +1,8 @@
+
+Requirements · TXT
+tensorflow
+dvc[gdrive]
+pyyaml
+scikit-learn
+matplotlib
+ 
