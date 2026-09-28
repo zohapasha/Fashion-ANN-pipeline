@@ -36,4 +36,4 @@ model.fit(
 model.save("models/model.h5")
 print("Saved models/model.h5 and models/history.csv")
 
-# Hello, I have made this change to test git diff with unstaged changes
+# Hello, I have made this change to test git diff variants
