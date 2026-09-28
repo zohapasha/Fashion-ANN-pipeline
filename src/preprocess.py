@@ -9,8 +9,8 @@ params = yaml.safe_load(open("params.yaml"))["preprocess"]
 # I am making a change to check git stash and checkout again since previous git messed up :()
 
 def normalize(x):
-    # scale pixel values from [0, 255] to [0, 1]
-    return x.astype("float32") / 255.0
+    # Standardize using the Fashion-MNIST mean and standard deviation
+    return (x.astype("float32") / 255.0 - 0.2860) / 0.3530
 
 
 train = np.load("data/raw/train.npz")
