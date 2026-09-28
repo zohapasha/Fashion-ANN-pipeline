@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 params = yaml.safe_load(open("params.yaml"))["preprocess"]
 
-# I am making a change to check git stash and checkout
+# I am making a change to check git stash and checkout again since previous git messed up :()
 
 def normalize(x):
     # scale pixel values from [0, 255] to [0, 1]
